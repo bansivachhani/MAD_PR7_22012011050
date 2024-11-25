@@ -52,7 +52,7 @@ class MainActivity : AppCompatActivity() {
             try {
                 val data = HttpRequest().makeServiceCall(
                     "https://api.json-generator.com/templates/VB6Cs9XI66_F/data",
-                    "c41jxqw2nalvkjii5pj84qahsenshzajhuo02ad8"
+                    "mf3w8djhq32mauw6ztiqvf6o5sh508pzkoelb3qc"
                 )
 
                 withContext(Dispatchers.Main) {
