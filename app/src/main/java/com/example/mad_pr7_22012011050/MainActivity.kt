@@ -66,7 +66,8 @@ private fun getPersonDetailsFromJson(data: String) {
         }
         // Set up the adapter with the parsed data
         personAdapter = PersonAdapter(personList)
-        recycleView.adapter = personAdapter
+        recyclerView.adapter = personAdapter
+
     } catch (e: Exception) {
         e.printStackTrace()
     }
